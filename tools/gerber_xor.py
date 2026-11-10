@@ -8,7 +8,7 @@ only in the re-export).
 Usage: gerber_xor.py <pairs.json> <out_dir>
   pairs.json: {"outline": ["orig/x.GKO", "kicad/x-Edge_Cuts.gm1"],
                "layers": {"F.Cu": ["orig/x.GTL", "kicad/x-F_Cu.gtl"], ...}}
-Runs gerbonara inside the venv given by GERBONARA_PY (default: the EE5377 harness venv) and rasterises here.
+Runs gerbonara inside the venv given by GERBONARA_PY (default: the current Python) and rasterises here.
 """
 import json
 import os
@@ -21,7 +21,7 @@ import numpy as np
 from PIL import Image
 
 RES = 20.0          # px per mm -> 0.05 mm per pixel
-GERBONARA_PY = os.environ.get("GERBONARA_PY", r"C:\Users\USER\Desktop\test\EE5377\harness\.venv\Scripts\python.exe")
+GERBONARA_PY = os.environ.get("GERBONARA_PY", sys.executable)
 
 STAGE1 = r'''
 import json, sys
