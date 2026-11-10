@@ -1,0 +1,31 @@
+{
+ "format": "Eagle brd",
+ "eagle_version": "9.5.2",
+ "elements": 48,
+ "signals": 21,
+ "signals_with_connections": 18,
+ "vias": 38,
+ "polygons": 2,
+ "plain_holes": 0,
+ "plain_texts": 4,
+ "wires_per_layer": {
+  "Top": 144,
+  "Bottom": 49
+ },
+ "wire_length_mm_per_layer": {
+  "Top": 214.12,
+  "Bottom": 79.95
+ },
+ "design_rules": {
+  "mdWireWire": "7mil",
+  "mdWirePad": "7mil",
+  "mdWireVia": "7mil",
+  "mdPadPad": "7mil",
+  "mdSmdSmd": "7mil",
+  "mdCopperDimension": "7mil",
+  "msWidth": "7mil",
+  "msDrill": "15mil",
+  "rlMinViaOuter": "7mil",
+  "slThermalIsolate": "10mil"
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "copper_layers": 2,
+ "board_mm": [
+  25.603,
+  25.603
+ ],
+ "footprints": 48,
+ "footprints_without_pads": [
+  "FRAME1",
+  "LOGO1",
+  "LOGO2",
+  "LOGO3",
+  "LOGO4",
+  "U$1",
+  "U$10",
+  "U$15",
+  "U$16",
+  "U$17",
+  "U$19",
+  "U$2",
+  "U$20",
+  "U$21",
+  "U$23",
+  "U$3",
+  "U$4",
+  "U$5",
+  "U$6",
+  "U$7",
+  "U$8",
+  "U$9"
+ ],
+ "nets": 21,
+ "pads": 78,
+ "pads_by_attribute": {
+  "SMD": 57,
+  "PTH": 17,
+  "NPTH": 4
+ },
+ "vias": 38,
+ "tracks": 193,
+ "arcs": 0,
+ "track_length_mm_per_layer": {
+  "B.Cu": 79.95,
+  "F.Cu": 214.12
+ },
+ "straight_track_length_mm_per_layer": {
+  "B.Cu": 79.95,
+  "F.Cu": 214.12
+ },
+ "items_on_undefined_layer": 11,
+ "zones": 2,
+ "zones_per_layer": {
+  "F.Cu": 1,
+  "B.Cu": 1
+ },
+ "rule_areas": 0,
+ "board_texts": 4,
+ "netclasses": [],
+ "rules_mm": {
+  "min_clearance": 0.1778,
+  "min_track": 0.2,
+  "default_clearance": 0.2,
+  "default_track": 0.2,
+  "solder_mask_expansion": 0.0
+ }
+}

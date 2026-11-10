@@ -1,0 +1,42 @@
+{
+ "copper_layers": 2,
+ "board_mm": [
+  50.05,
+  43.351
+ ],
+ "footprints": 36,
+ "footprints_without_pads": [],
+ "nets": 31,
+ "pads": 110,
+ "pads_by_attribute": {
+  "SMD": 97,
+  "PTH": 13
+ },
+ "vias": 102,
+ "tracks": 81,
+ "arcs": 50,
+ "track_length_mm_per_layer": {
+  "Bottom Layer": 70.06,
+  "Top Layer": 167.77
+ },
+ "straight_track_length_mm_per_layer": {
+  "Bottom Layer": 59.56,
+  "Top Layer": 118.99
+ },
+ "items_on_undefined_layer": 0,
+ "zones": 6,
+ "zones_per_layer": {
+  "Top Layer": 4,
+  "Bottom Layer": 2
+ },
+ "rule_areas": 3,
+ "board_texts": 5,
+ "netclasses": [],
+ "rules_mm": {
+  "min_clearance": 0.0,
+  "min_track": 0.2,
+  "default_clearance": 0.2,
+  "default_track": 0.2,
+  "solder_mask_expansion": 0.0
+ }
+}

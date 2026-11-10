@@ -1,0 +1,32 @@
+{
+ "outline": [
+  "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/altium_blv/original/gerber/BLV.GKO",
+  "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/altium_blv/kicad/reexport/gerber/BLV_filled-Edge_Cuts.gbr"
+ ],
+ "layers": {
+  "F.Cu": [
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/altium_blv/original/gerber/BLV.GTL",
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/altium_blv/kicad/reexport/gerber/BLV_filled-Top Layer.gbr"
+  ],
+  "B.Cu": [
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/altium_blv/original/gerber/BLV.GBL",
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/altium_blv/kicad/reexport/gerber/BLV_filled-Bottom Layer.gbr"
+  ],
+  "F.Mask": [
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/altium_blv/original/gerber/BLV.GTS",
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/altium_blv/kicad/reexport/gerber/BLV_filled-Top Solder.gbr"
+  ],
+  "B.Mask": [
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/altium_blv/original/gerber/BLV.GBS",
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/altium_blv/kicad/reexport/gerber/BLV_filled-Bottom Solder.gbr"
+  ],
+  "F.Silk": [
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/altium_blv/original/gerber/BLV.GTO",
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/altium_blv/kicad/reexport/gerber/BLV_filled-Top Overlay.gbr"
+  ],
+  "B.Silk": [
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/altium_blv/original/gerber/BLV.GBO",
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/altium_blv/kicad/reexport/gerber/BLV_filled-Bottom Overlay.gbr"
+  ]
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "outline_mm": {
+  "original": [
+   109.603,
+   100.148
+  ],
+  "reexport": [
+   91.186,
+   91.186
+  ]
+ },
+ "res_mm_per_px": 0.05,
+ "layers": {
+  "F.Cu": {
+   "area_original_mm2": 3794.0,
+   "area_reexport_mm2": 4060.26,
+   "only_in_original_mm2": 137.043,
+   "only_in_reexport_mm2": 388.1,
+   "largest_only_original": {
+    "area_mm2": 4.783,
+    "at_mm": [
+     45.65,
+     57.97
+    ]
+   },
+   "largest_only_reexport": {
+    "area_mm2": 11.548,
+    "at_mm": [
+     61.45,
+     79.45
+    ]
+   }
+  },
+  "B.Cu": {
+   "area_original_mm2": 4446.68,
+   "area_reexport_mm2": 4488.36,
+   "only_in_original_mm2": 220.02,
+   "only_in_reexport_mm2": 255.403,
+   "largest_only_original": {
+    "area_mm2": 6.77,
+    "at_mm": [
+     54.8,
+     44.27
+    ]
+   },
+   "largest_only_reexport": {
+    "area_mm2": 10.215,
+    "at_mm": [
+     81.7,
+     55.8
+    ]
+   }
+  },
+  "F.Mask": {
+   "area_original_mm2": 1232.84,
+   "area_reexport_mm2": 1246.58,
+   "only_in_original_mm2": 0.0,
+   "only_in_reexport_mm2": 0.0,
+   "largest_only_original": null,
+   "largest_only_reexport": null
+  },
+  "B.Mask": {
+   "area_original_mm2": 700.15,
+   "area_reexport_mm2": 716.2,
+   "only_in_original_mm2": 0.0,
+   "only_in_reexport_mm2": 0.0,
+   "largest_only_original": null,
+   "largest_only_reexport": null
+  },
+  "F.Silk": {
+   "area_original_mm2": 415.21,
+   "area_reexport_mm2": 457.82,
+   "only_in_original_mm2": 0.0,
+   "only_in_reexport_mm2": 3.953,
+   "largest_only_original": null,
+   "largest_only_reexport": {
+    "area_mm2": 0.045,
+    "at_mm": [
+     77.67,
+     45.1
+    ]
+   }
+  },
+  "B.Silk": {
+   "area_original_mm2": 814.88,
+   "area_reexport_mm2": 828.1,
+   "only_in_original_mm2": 0.0,
+   "only_in_reexport_mm2": 2.033,
+   "largest_only_original": null,
+   "largest_only_reexport": {
+    "area_mm2": 0.06,
+    "at_mm": [
+     62.45,
+     75.47
+    ]
+   }
+  },
+  "Outline": {
+   "area_original_mm2": 632.84,
+   "area_reexport_mm2": 326.25,
+   "only_in_original_mm2": 299.613,
+   "only_in_reexport_mm2": 0.0,
+   "largest_only_original": {
+    "area_mm2": 220.15,
+    "at_mm": [
+     48.83,
+     45.65
+    ]
+   },
+   "largest_only_reexport": null
+  }
+ },
+ "alignment": {
+  "on_layer": "F.Cu",
+  "shift_mm": [
+   0.06,
+   0.06
+  ],
+  "phase_correlation_response": 0.753
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "format": "Altium PcbDoc",
+ "record_counts": {
+  "Advanced Placer Options6": 1,
+  "Arcs6": 87,
+  "Board6": 1,
+  "BoardRegions": 1,
+  "Classes6": 15,
+  "ComponentBodies6": 32,
+  "Components6": 33,
+  "Connections6": 28,
+  "ConstraintManager": 1,
+  "Design Rule Checker Options6": 1,
+  "EmbeddedFonts6": 3,
+  "FileVersionInfo": 1,
+  "Fills6": 3,
+  "LayerKindMapping": 1,
+  "Models": 20,
+  "Nets6": 31,
+  "Pads6": 109,
+  "Pin Swap Options6": 1,
+  "Polygons6": 6,
+  "PrimitiveParameters": 66,
+  "Regions6": 6,
+  "Rules6": 35,
+  "ShapeBasedComponentBodies6": 32,
+  "ShapeBasedRegions6": 6,
+  "SignalClasses": 1,
+  "TNetAntennaeViolation": 1,
+  "Texts": 3,
+  "Texts6": 71,
+  "Tracks6": 364,
+  "UnionNames": 1,
+  "UniqueIDPrimitiveInformation": 109,
+  "Vias6": 102,
+  "WideStrings6": 71
+ },
+ "tracks6_by_kind": {
+  "free_copper": 81,
+  "polygon_member": 0,
+  "in_footprint": 14,
+  "other_layers": 266,
+  "keepout": 3
+ },
+ "free_track_length_mm": {
+  "free_top": 118.99,
+  "free_bottom": 59.56
+ }
+}

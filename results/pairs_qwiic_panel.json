@@ -1,0 +1,32 @@
+{
+ "outline": [
+  "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/eagle_qwiic_button/original/gerber/Qwiic_Button-Panel.GKO",
+  "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/eagle_qwiic_button/kicad/reexport_panel/gerber/Qwiic_Button-Panel_filled-Edge_Cuts.gbr"
+ ],
+ "layers": {
+  "F.Cu": [
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/eagle_qwiic_button/original/gerber/Qwiic_Button-Panel.GTL",
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/eagle_qwiic_button/kicad/reexport_panel/gerber/Qwiic_Button-Panel_filled-F_Cu.gbr"
+  ],
+  "B.Cu": [
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/eagle_qwiic_button/original/gerber/Qwiic_Button-Panel.GBL",
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/eagle_qwiic_button/kicad/reexport_panel/gerber/Qwiic_Button-Panel_filled-B_Cu.gbr"
+  ],
+  "F.Mask": [
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/eagle_qwiic_button/original/gerber/Qwiic_Button-Panel.GTS",
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/eagle_qwiic_button/kicad/reexport_panel/gerber/Qwiic_Button-Panel_filled-F_Mask.gbr"
+  ],
+  "B.Mask": [
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/eagle_qwiic_button/original/gerber/Qwiic_Button-Panel.GBS",
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/eagle_qwiic_button/kicad/reexport_panel/gerber/Qwiic_Button-Panel_filled-B_Mask.gbr"
+  ],
+  "F.Silk": [
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/eagle_qwiic_button/original/gerber/Qwiic_Button-Panel.GTO",
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/eagle_qwiic_button/kicad/reexport_panel/gerber/Qwiic_Button-Panel_filled-F_Silkscreen.gbr"
+  ],
+  "B.Silk": [
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/eagle_qwiic_button/original/gerber/Qwiic_Button-Panel.GBO",
+   "C:/Users/USER/Desktop/test/pcb-review-crossformat/samples/eagle_qwiic_button/kicad/reexport_panel/gerber/Qwiic_Button-Panel_filled-B_Silkscreen.gbr"
+  ]
+ }
+}

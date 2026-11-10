@@ -1,0 +1,101 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.8*%
+%TF.CreationDate,2026-11-10T16:27:51+07:00*%
+%TF.ProjectId,BLV_filled,424c565f-6669-46c6-9c65-642e6b696361,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.8) date 2026-11-10 16:27:51*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMHorizOval*
+0 Thick line with rounded ends*
+0 $1 width*
+0 $2 $3 position (X,Y) of the first rounded end (center of the circle)*
+0 $4 $5 position (X,Y) of the second rounded end (center of the circle)*
+0 Add line between two ends*
+20,1,$1,$2,$3,$4,$5,0*
+0 Add two circle primitives to create the rounded ends*
+1,1,$1,$2,$3*
+1,1,$1,$4,$5*%
+%AMRotRect*
+0 Rectangle, with rotation*
+0 The origin of the aperture is its center*
+0 $1 length*
+0 $2 width*
+0 $3 Rotation angle, in degrees counterclockwise*
+0 Add horizontal line*
+21,1,$1,$2,0,0,$3*%
+G04 Aperture macros list end*
+%ADD10RotRect,1.700000X1.700000X330.000000*%
+%ADD11C,1.700000*%
+%ADD12HorizOval,1.200000X-0.562917X0.325000X0.562917X-0.325000X0*%
+%ADD13C,3.302000*%
+%ADD14C,2.300000*%
+%ADD15RotRect,0.965200X0.889000X240.000000*%
+%ADD16RotRect,0.900000X1.500000X150.000000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,CN1*%
+X163233100Y-94904235D03*
+D11*
+X161963110Y-97103945D03*
+%TD*%
+D12*
+%TO.C,USB1*%
+X153135700Y-113438165D03*
+X150135700Y-118634305D03*
+%TD*%
+D13*
+%TO.C,*%
+X169125900Y-85887235D03*
+%TD*%
+D10*
+%TO.C,CN2*%
+X159042100Y-102143235D03*
+D11*
+X157772100Y-104342935D03*
+%TD*%
+D13*
+%TO.C,*%
+X148501100Y-85887235D03*
+%TD*%
+D11*
+%TO.C,KEY1*%
+X139689560Y-108185675D03*
+X141939560Y-112082785D03*
+D14*
+X144729620Y-111915325D03*
+X141229630Y-105853145D03*
+%TD*%
+D13*
+%TO.C,*%
+X148501100Y-121574235D03*
+%TD*%
+D15*
+%TO.C,R4*%
+X152031700Y-91703835D03*
+X151155400Y-93221635D03*
+%TD*%
+%TO.C,R5*%
+X153555700Y-92592835D03*
+X152679400Y-94110635D03*
+%TD*%
+%TO.C,R3*%
+X150507700Y-90814835D03*
+X149631400Y-92332635D03*
+%TD*%
+D16*
+%TO.C,LED1*%
+X151239460Y-96282645D03*
+X149853650Y-95482545D03*
+X148467830Y-94682445D03*
+X145762730Y-99367815D03*
+X147148550Y-100167914D03*
+X148534360Y-100968015D03*
+%TD*%
+M02*

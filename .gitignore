@@ -1,0 +1,8 @@
+*.kicad_prl
+*-backups/
+_autosave-*
+fp-info-cache
+__pycache__/
+results/*.log
+results/xor_*/*.svg
+samples/*/kicad/reexport*/*.kicad_pcb.bak
