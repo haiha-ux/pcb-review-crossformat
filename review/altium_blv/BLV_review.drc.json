@@ -1,0 +1,3533 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-10T16:34:48",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "BLV_review.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2540 mm; actual 0.1990 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [NetLED1_5] of U2 on Top Layer",
+                    "pos": {
+                        "x": 142.64627,
+                        "y": 102.929165
+                    },
+                    "uuid": "a53f4896-445f-4e2c-ac99-88e2be8221f8"
+                },
+                {
+                    "description": "Pad 1 [NetLED1_4] of U2 on Top Layer",
+                    "pos": {
+                        "x": 142.01227,
+                        "y": 102.929165
+                    },
+                    "uuid": "fe50c6e8-0e78-4039-9543-8e2b56c5b63c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2540 mm; actual 0.2010 mm)",
+            "items": [
+                {
+                    "description": "Pad 3 [NetLED1_6] of U2 on Top Layer",
+                    "pos": {
+                        "x": 143.28227,
+                        "y": 102.929165
+                    },
+                    "uuid": "289fd953-31c2-4338-b706-48e30979e85a"
+                },
+                {
+                    "description": "Pad 2 [NetLED1_5] of U2 on Top Layer",
+                    "pos": {
+                        "x": 142.64627,
+                        "y": 102.929165
+                    },
+                    "uuid": "a53f4896-445f-4e2c-ac99-88e2be8221f8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2540 mm; actual 0.1990 mm)",
+            "items": [
+                {
+                    "description": "Pad 3 [NetLED1_6] of U2 on Top Layer",
+                    "pos": {
+                        "x": 143.28227,
+                        "y": 102.929165
+                    },
+                    "uuid": "289fd953-31c2-4338-b706-48e30979e85a"
+                },
+                {
+                    "description": "Pad 4 [<no net>] of U2 on Top Layer",
+                    "pos": {
+                        "x": 143.91626,
+                        "y": 102.929165
+                    },
+                    "uuid": "816b2888-83bd-4de4-81f3-0d64fdab49ae"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2540 mm; actual 0.2010 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [<no net>] of U2 on Top Layer",
+                    "pos": {
+                        "x": 143.91626,
+                        "y": 102.929165
+                    },
+                    "uuid": "816b2888-83bd-4de4-81f3-0d64fdab49ae"
+                },
+                {
+                    "description": "Pad 5 [NetU1_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 144.55227,
+                        "y": 102.929165
+                    },
+                    "uuid": "fb73235b-8366-432a-b827-671c9e29afc4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2540 mm; actual 0.1990 mm)",
+            "items": [
+                {
+                    "description": "Pad 6 [NetC11_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 145.18627,
+                        "y": 102.929165
+                    },
+                    "uuid": "40535120-ea77-422d-8339-e99e989e326d"
+                },
+                {
+                    "description": "Pad 5 [NetU1_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 144.55227,
+                        "y": 102.929165
+                    },
+                    "uuid": "fb73235b-8366-432a-b827-671c9e29afc4"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2540 mm; actual 0.2010 mm)",
+            "items": [
+                {
+                    "description": "Pad 6 [NetC11_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 145.18627,
+                        "y": 102.929165
+                    },
+                    "uuid": "40535120-ea77-422d-8339-e99e989e326d"
+                },
+                {
+                    "description": "Pad 7 [NetC4_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 145.82226,
+                        "y": 102.929165
+                    },
+                    "uuid": "abb059cd-fbec-475b-aae6-20c5960d726e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2540 mm; actual 0.1990 mm)",
+            "items": [
+                {
+                    "description": "Pad 8 [<no net>] of U2 on Top Layer",
+                    "pos": {
+                        "x": 146.45626,
+                        "y": 102.929165
+                    },
+                    "uuid": "66812e7d-082e-458b-9bae-decd46167653"
+                },
+                {
+                    "description": "Pad 7 [NetC4_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 145.82226,
+                        "y": 102.929165
+                    },
+                    "uuid": "abb059cd-fbec-475b-aae6-20c5960d726e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2540 mm; actual 0.2010 mm)",
+            "items": [
+                {
+                    "description": "Pad 8 [<no net>] of U2 on Top Layer",
+                    "pos": {
+                        "x": 146.45626,
+                        "y": 102.929165
+                    },
+                    "uuid": "66812e7d-082e-458b-9bae-decd46167653"
+                },
+                {
+                    "description": "Pad 9 [NetC5_2] of U2 on Top Layer",
+                    "pos": {
+                        "x": 147.09226,
+                        "y": 102.929165
+                    },
+                    "uuid": "fcaa723c-84b7-48c3-85ca-f3c2d56b3e4b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2540 mm; actual 0.1990 mm)",
+            "items": [
+                {
+                    "description": "Pad 10 [GND] of U2 on Top Layer",
+                    "pos": {
+                        "x": 147.72626,
+                        "y": 102.929165
+                    },
+                    "uuid": "5e868a08-41cd-43e4-887c-417909ed7b25"
+                },
+                {
+                    "description": "Pad 9 [NetC5_2] of U2 on Top Layer",
+                    "pos": {
+                        "x": 147.09226,
+                        "y": 102.929165
+                    },
+                    "uuid": "fcaa723c-84b7-48c3-85ca-f3c2d56b3e4b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2540 mm; actual 0.1990 mm)",
+            "items": [
+                {
+                    "description": "Pad 11 [NetC7_2] of U2 on Top Layer",
+                    "pos": {
+                        "x": 148.36226,
+                        "y": 102.929165
+                    },
+                    "uuid": "3eea424a-4606-4707-922a-74a2a4de305d"
+                },
+                {
+                    "description": "Pad 12 [<no net>] of U2 on Top Layer",
+                    "pos": {
+                        "x": 148.99626,
+                        "y": 102.929165
+                    },
+                    "uuid": "cbdc865d-b920-47d8-bf97-2aeca21be06c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2540 mm; actual 0.2010 mm)",
+            "items": [
+                {
+                    "description": "Pad 11 [NetC7_2] of U2 on Top Layer",
+                    "pos": {
+                        "x": 148.36226,
+                        "y": 102.929165
+                    },
+                    "uuid": "3eea424a-4606-4707-922a-74a2a4de305d"
+                },
+                {
+                    "description": "Pad 10 [GND] of U2 on Top Layer",
+                    "pos": {
+                        "x": 147.72626,
+                        "y": 102.929165
+                    },
+                    "uuid": "5e868a08-41cd-43e4-887c-417909ed7b25"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2540 mm; actual 0.1990 mm)",
+            "items": [
+                {
+                    "description": "Pad 13 [NetC10_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 148.99626,
+                        "y": 97.479165
+                    },
+                    "uuid": "c106be8d-aeb8-4fa8-accf-70d0eaa2e718"
+                },
+                {
+                    "description": "Pad 14 [3.3V] of U2 on Top Layer",
+                    "pos": {
+                        "x": 148.36226,
+                        "y": 97.479165
+                    },
+                    "uuid": "e9217b09-cfaa-4c72-902f-0e544d6f29c3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2540 mm; actual 0.2010 mm)",
+            "items": [
+                {
+                    "description": "Pad 15 [GND] of U2 on Top Layer",
+                    "pos": {
+                        "x": 147.72626,
+                        "y": 97.479165
+                    },
+                    "uuid": "8e5dbcea-309f-4f4e-81e1-bceb887f1ebb"
+                },
+                {
+                    "description": "Pad 14 [3.3V] of U2 on Top Layer",
+                    "pos": {
+                        "x": 148.36226,
+                        "y": 97.479165
+                    },
+                    "uuid": "e9217b09-cfaa-4c72-902f-0e544d6f29c3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2540 mm; actual 0.2010 mm)",
+            "items": [
+                {
+                    "description": "Pad 16 [NetC6_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 147.09226,
+                        "y": 97.479165
+                    },
+                    "uuid": "676f859a-cbdc-412a-b1fb-0d74ad18372c"
+                },
+                {
+                    "description": "Pad 17 [<no net>] of U2 on Top Layer",
+                    "pos": {
+                        "x": 146.45626,
+                        "y": 97.479165
+                    },
+                    "uuid": "fb8a04c5-2306-4166-8f00-bc80bdf771a2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2540 mm; actual 0.1990 mm)",
+            "items": [
+                {
+                    "description": "Pad 16 [NetC6_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 147.09226,
+                        "y": 97.479165
+                    },
+                    "uuid": "676f859a-cbdc-412a-b1fb-0d74ad18372c"
+                },
+                {
+                    "description": "Pad 15 [GND] of U2 on Top Layer",
+                    "pos": {
+                        "x": 147.72626,
+                        "y": 97.479165
+                    },
+                    "uuid": "8e5dbcea-309f-4f4e-81e1-bceb887f1ebb"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2540 mm; actual 0.2010 mm)",
+            "items": [
+                {
+                    "description": "Pad 18 [NetKEY1_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 145.82226,
+                        "y": 97.479165
+                    },
+                    "uuid": "4765a7fd-c172-404f-8a94-880c059f8ee8"
+                },
+                {
+                    "description": "Pad 19 [NetC3_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 145.18627,
+                        "y": 97.479165
+                    },
+                    "uuid": "8fc7b0a5-6289-4d52-a59f-846a0d49214e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2540 mm; actual 0.1990 mm)",
+            "items": [
+                {
+                    "description": "Pad 18 [NetKEY1_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 145.82226,
+                        "y": 97.479165
+                    },
+                    "uuid": "4765a7fd-c172-404f-8a94-880c059f8ee8"
+                },
+                {
+                    "description": "Pad 17 [<no net>] of U2 on Top Layer",
+                    "pos": {
+                        "x": 146.45626,
+                        "y": 97.479165
+                    },
+                    "uuid": "fb8a04c5-2306-4166-8f00-bc80bdf771a2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2540 mm; actual 0.1990 mm)",
+            "items": [
+                {
+                    "description": "Pad 19 [NetC3_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 145.18627,
+                        "y": 97.479165
+                    },
+                    "uuid": "8fc7b0a5-6289-4d52-a59f-846a0d49214e"
+                },
+                {
+                    "description": "Pad 20 [GND] of U2 on Top Layer",
+                    "pos": {
+                        "x": 144.55227,
+                        "y": 97.479165
+                    },
+                    "uuid": "e8d99e71-1091-43c1-acbb-1df9f464f45f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2540 mm; actual 0.2010 mm)",
+            "items": [
+                {
+                    "description": "Pad 20 [GND] of U2 on Top Layer",
+                    "pos": {
+                        "x": 144.55227,
+                        "y": 97.479165
+                    },
+                    "uuid": "e8d99e71-1091-43c1-acbb-1df9f464f45f"
+                },
+                {
+                    "description": "Pad 21 [NetC2_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 143.91626,
+                        "y": 97.479165
+                    },
+                    "uuid": "fd7dd778-2d47-488f-8b5a-f162572ab20c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2540 mm; actual 0.1990 mm)",
+            "items": [
+                {
+                    "description": "Pad 22 [GND] of U2 on Top Layer",
+                    "pos": {
+                        "x": 143.28226,
+                        "y": 97.479165
+                    },
+                    "uuid": "92bb97be-d4a3-4eec-b4fc-3f8d5d899aef"
+                },
+                {
+                    "description": "Pad 21 [NetC2_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 143.91626,
+                        "y": 97.479165
+                    },
+                    "uuid": "fd7dd778-2d47-488f-8b5a-f162572ab20c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2540 mm; actual 0.2010 mm)",
+            "items": [
+                {
+                    "description": "Pad 22 [GND] of U2 on Top Layer",
+                    "pos": {
+                        "x": 143.28226,
+                        "y": 97.479165
+                    },
+                    "uuid": "92bb97be-d4a3-4eec-b4fc-3f8d5d899aef"
+                },
+                {
+                    "description": "Pad 23 [NetC12_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 142.64626,
+                        "y": 97.479165
+                    },
+                    "uuid": "ed9b048d-e501-4a37-a2b2-c9e060d859b2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (netclass 'Default' clearance 0.2540 mm; actual 0.1990 mm)",
+            "items": [
+                {
+                    "description": "Pad 24 [NetC13_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 142.01227,
+                        "y": 97.479165
+                    },
+                    "uuid": "89b7a976-6efe-4853-855c-ae8b51f521ae"
+                },
+                {
+                    "description": "Pad 23 [NetC12_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 142.64626,
+                        "y": 97.479165
+                    },
+                    "uuid": "ed9b048d-e501-4a37-a2b2-c9e060d859b2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4640 mm)",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 148.5011,
+                        "y": 126.654235
+                    },
+                    "uuid": "1cc69e5b-4c3f-4e94-afaf-2773199bc006"
+                },
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 133.9469,
+                        "y": 99.908035
+                    },
+                    "uuid": "58a96603-fd26-4238-8515-3584311227ae"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer Top Layer; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [VIN] on Top Layer, priority 6",
+                    "pos": {
+                        "x": 147.3835,
+                        "y": 115.656035
+                    },
+                    "uuid": "7222c918-c9d4-4df6-924b-32904406eebd"
+                },
+                {
+                    "description": "Pad 1 [VIN] of USB1 on Top Layer",
+                    "pos": {
+                        "x": 148.59171,
+                        "y": 115.774585
+                    },
+                    "uuid": "5fae374e-79be-4e6f-aa45-bf0f0eecf3e7"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer Top Layer; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [VIN] on Top Layer, priority 6",
+                    "pos": {
+                        "x": 147.3835,
+                        "y": 115.656035
+                    },
+                    "uuid": "7222c918-c9d4-4df6-924b-32904406eebd"
+                },
+                {
+                    "description": "Pad 2 [VIN] of D1 on Top Layer",
+                    "pos": {
+                        "x": 148.02485,
+                        "y": 112.518036
+                    },
+                    "uuid": "e08bbb5d-ca34-468f-87e1-0834080dd735"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer Top Layer; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [3.3V] on Top Layer, priority 3",
+                    "pos": {
+                        "x": 164.6555,
+                        "y": 91.729235
+                    },
+                    "uuid": "cdc819ac-7c15-4161-9706-dd31a9544d46"
+                },
+                {
+                    "description": "Pad 1 [3.3V] of C8 on Top Layer",
+                    "pos": {
+                        "x": 164.62756,
+                        "y": 89.384815
+                    },
+                    "uuid": "e9173418-3a4c-44ac-8ad0-fea9c04cb90d"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer Top Layer; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on Top Layer, priority 0",
+                    "pos": {
+                        "x": 148.5011,
+                        "y": 126.654235
+                    },
+                    "uuid": "f591d8db-5cd8-4510-a225-b4a65419c233"
+                },
+                {
+                    "description": "Pad 10 [GND] of U2 on Top Layer",
+                    "pos": {
+                        "x": 147.72626,
+                        "y": 102.929165
+                    },
+                    "uuid": "5e868a08-41cd-43e4-887c-417909ed7b25"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Thermal relief connection to zone incomplete (layer Top Layer; zone min spoke count 2; actual 1)",
+            "items": [
+                {
+                    "description": "Zone [GND] on Top Layer, priority 0",
+                    "pos": {
+                        "x": 148.5011,
+                        "y": 126.654235
+                    },
+                    "uuid": "f591d8db-5cd8-4510-a225-b4a65419c233"
+                },
+                {
+                    "description": "Pad 15 [GND] of U2 on Top Layer",
+                    "pos": {
+                        "x": 147.72626,
+                        "y": 97.479165
+                    },
+                    "uuid": "8e5dbcea-309f-4f4e-81e1-bceb887f1ebb"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 21 [NetC2_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 143.91626,
+                        "y": 97.479165
+                    },
+                    "uuid": "fd7dd778-2d47-488f-8b5a-f162572ab20c"
+                },
+                {
+                    "description": "Pad 20 [GND] of U2 on Top Layer",
+                    "pos": {
+                        "x": 144.55227,
+                        "y": 97.479165
+                    },
+                    "uuid": "e8d99e71-1091-43c1-acbb-1df9f464f45f"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 21 [NetC2_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 143.91626,
+                        "y": 97.479165
+                    },
+                    "uuid": "fd7dd778-2d47-488f-8b5a-f162572ab20c"
+                },
+                {
+                    "description": "Pad 22 [GND] of U2 on Top Layer",
+                    "pos": {
+                        "x": 143.28226,
+                        "y": 97.479165
+                    },
+                    "uuid": "92bb97be-d4a3-4eec-b4fc-3f8d5d899aef"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 22 [GND] of U2 on Top Layer",
+                    "pos": {
+                        "x": 143.28226,
+                        "y": 97.479165
+                    },
+                    "uuid": "92bb97be-d4a3-4eec-b4fc-3f8d5d899aef"
+                },
+                {
+                    "description": "Pad 23 [NetC12_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 142.64626,
+                        "y": 97.479165
+                    },
+                    "uuid": "ed9b048d-e501-4a37-a2b2-c9e060d859b2"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 23 [NetC12_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 142.64626,
+                        "y": 97.479165
+                    },
+                    "uuid": "ed9b048d-e501-4a37-a2b2-c9e060d859b2"
+                },
+                {
+                    "description": "Pad 24 [NetC13_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 142.01227,
+                        "y": 97.479165
+                    },
+                    "uuid": "89b7a976-6efe-4853-855c-ae8b51f521ae"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 1 [NetLED1_4] of U2 on Top Layer",
+                    "pos": {
+                        "x": 142.01227,
+                        "y": 102.929165
+                    },
+                    "uuid": "fe50c6e8-0e78-4039-9543-8e2b56c5b63c"
+                },
+                {
+                    "description": "Pad 2 [NetLED1_5] of U2 on Top Layer",
+                    "pos": {
+                        "x": 142.64627,
+                        "y": 102.929165
+                    },
+                    "uuid": "a53f4896-445f-4e2c-ac99-88e2be8221f8"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 2 [NetLED1_5] of U2 on Top Layer",
+                    "pos": {
+                        "x": 142.64627,
+                        "y": 102.929165
+                    },
+                    "uuid": "a53f4896-445f-4e2c-ac99-88e2be8221f8"
+                },
+                {
+                    "description": "Pad 3 [NetLED1_6] of U2 on Top Layer",
+                    "pos": {
+                        "x": 143.28227,
+                        "y": 102.929165
+                    },
+                    "uuid": "289fd953-31c2-4338-b706-48e30979e85a"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 3 [NetLED1_6] of U2 on Top Layer",
+                    "pos": {
+                        "x": 143.28227,
+                        "y": 102.929165
+                    },
+                    "uuid": "289fd953-31c2-4338-b706-48e30979e85a"
+                },
+                {
+                    "description": "Pad 4 [<no net>] of U2 on Top Layer",
+                    "pos": {
+                        "x": 143.91626,
+                        "y": 102.929165
+                    },
+                    "uuid": "816b2888-83bd-4de4-81f3-0d64fdab49ae"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 4 [<no net>] of U2 on Top Layer",
+                    "pos": {
+                        "x": 143.91626,
+                        "y": 102.929165
+                    },
+                    "uuid": "816b2888-83bd-4de4-81f3-0d64fdab49ae"
+                },
+                {
+                    "description": "Pad 5 [NetU1_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 144.55227,
+                        "y": 102.929165
+                    },
+                    "uuid": "fb73235b-8366-432a-b827-671c9e29afc4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 5 [NetU1_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 144.55227,
+                        "y": 102.929165
+                    },
+                    "uuid": "fb73235b-8366-432a-b827-671c9e29afc4"
+                },
+                {
+                    "description": "Pad 6 [NetC11_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 145.18627,
+                        "y": 102.929165
+                    },
+                    "uuid": "40535120-ea77-422d-8339-e99e989e326d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 6 [NetC11_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 145.18627,
+                        "y": 102.929165
+                    },
+                    "uuid": "40535120-ea77-422d-8339-e99e989e326d"
+                },
+                {
+                    "description": "Pad 7 [NetC4_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 145.82226,
+                        "y": 102.929165
+                    },
+                    "uuid": "abb059cd-fbec-475b-aae6-20c5960d726e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 7 [NetC4_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 145.82226,
+                        "y": 102.929165
+                    },
+                    "uuid": "abb059cd-fbec-475b-aae6-20c5960d726e"
+                },
+                {
+                    "description": "Pad 8 [<no net>] of U2 on Top Layer",
+                    "pos": {
+                        "x": 146.45626,
+                        "y": 102.929165
+                    },
+                    "uuid": "66812e7d-082e-458b-9bae-decd46167653"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 8 [<no net>] of U2 on Top Layer",
+                    "pos": {
+                        "x": 146.45626,
+                        "y": 102.929165
+                    },
+                    "uuid": "66812e7d-082e-458b-9bae-decd46167653"
+                },
+                {
+                    "description": "Pad 9 [NetC5_2] of U2 on Top Layer",
+                    "pos": {
+                        "x": 147.09226,
+                        "y": 102.929165
+                    },
+                    "uuid": "fcaa723c-84b7-48c3-85ca-f3c2d56b3e4b"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 9 [NetC5_2] of U2 on Top Layer",
+                    "pos": {
+                        "x": 147.09226,
+                        "y": 102.929165
+                    },
+                    "uuid": "fcaa723c-84b7-48c3-85ca-f3c2d56b3e4b"
+                },
+                {
+                    "description": "Pad 10 [GND] of U2 on Top Layer",
+                    "pos": {
+                        "x": 147.72626,
+                        "y": 102.929165
+                    },
+                    "uuid": "5e868a08-41cd-43e4-887c-417909ed7b25"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 10 [GND] of U2 on Top Layer",
+                    "pos": {
+                        "x": 147.72626,
+                        "y": 102.929165
+                    },
+                    "uuid": "5e868a08-41cd-43e4-887c-417909ed7b25"
+                },
+                {
+                    "description": "Pad 11 [NetC7_2] of U2 on Top Layer",
+                    "pos": {
+                        "x": 148.36226,
+                        "y": 102.929165
+                    },
+                    "uuid": "3eea424a-4606-4707-922a-74a2a4de305d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 11 [NetC7_2] of U2 on Top Layer",
+                    "pos": {
+                        "x": 148.36226,
+                        "y": 102.929165
+                    },
+                    "uuid": "3eea424a-4606-4707-922a-74a2a4de305d"
+                },
+                {
+                    "description": "Pad 12 [<no net>] of U2 on Top Layer",
+                    "pos": {
+                        "x": 148.99626,
+                        "y": 102.929165
+                    },
+                    "uuid": "cbdc865d-b920-47d8-bf97-2aeca21be06c"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 13 [NetC10_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 148.99626,
+                        "y": 97.479165
+                    },
+                    "uuid": "c106be8d-aeb8-4fa8-accf-70d0eaa2e718"
+                },
+                {
+                    "description": "Pad 14 [3.3V] of U2 on Top Layer",
+                    "pos": {
+                        "x": 148.36226,
+                        "y": 97.479165
+                    },
+                    "uuid": "e9217b09-cfaa-4c72-902f-0e544d6f29c3"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 14 [3.3V] of U2 on Top Layer",
+                    "pos": {
+                        "x": 148.36226,
+                        "y": 97.479165
+                    },
+                    "uuid": "e9217b09-cfaa-4c72-902f-0e544d6f29c3"
+                },
+                {
+                    "description": "Pad 15 [GND] of U2 on Top Layer",
+                    "pos": {
+                        "x": 147.72626,
+                        "y": 97.479165
+                    },
+                    "uuid": "8e5dbcea-309f-4f4e-81e1-bceb887f1ebb"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 15 [GND] of U2 on Top Layer",
+                    "pos": {
+                        "x": 147.72626,
+                        "y": 97.479165
+                    },
+                    "uuid": "8e5dbcea-309f-4f4e-81e1-bceb887f1ebb"
+                },
+                {
+                    "description": "Pad 16 [NetC6_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 147.09226,
+                        "y": 97.479165
+                    },
+                    "uuid": "676f859a-cbdc-412a-b1fb-0d74ad18372c"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 16 [NetC6_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 147.09226,
+                        "y": 97.479165
+                    },
+                    "uuid": "676f859a-cbdc-412a-b1fb-0d74ad18372c"
+                },
+                {
+                    "description": "Pad 17 [<no net>] of U2 on Top Layer",
+                    "pos": {
+                        "x": 146.45626,
+                        "y": 97.479165
+                    },
+                    "uuid": "fb8a04c5-2306-4166-8f00-bc80bdf771a2"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 17 [<no net>] of U2 on Top Layer",
+                    "pos": {
+                        "x": 146.45626,
+                        "y": 97.479165
+                    },
+                    "uuid": "fb8a04c5-2306-4166-8f00-bc80bdf771a2"
+                },
+                {
+                    "description": "Pad 18 [NetKEY1_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 145.82226,
+                        "y": 97.479165
+                    },
+                    "uuid": "4765a7fd-c172-404f-8a94-880c059f8ee8"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 18 [NetKEY1_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 145.82226,
+                        "y": 97.479165
+                    },
+                    "uuid": "4765a7fd-c172-404f-8a94-880c059f8ee8"
+                },
+                {
+                    "description": "Pad 19 [NetC3_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 145.18627,
+                        "y": 97.479165
+                    },
+                    "uuid": "8fc7b0a5-6289-4d52-a59f-846a0d49214e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 19 [NetC3_1] of U2 on Top Layer",
+                    "pos": {
+                        "x": 145.18627,
+                        "y": 97.479165
+                    },
+                    "uuid": "8fc7b0a5-6289-4d52-a59f-846a0d49214e"
+                },
+                {
+                    "description": "Pad 20 [GND] of U2 on Top Layer",
+                    "pos": {
+                        "x": 144.55227,
+                        "y": 97.479165
+                    },
+                    "uuid": "e8d99e71-1091-43c1-acbb-1df9f464f45f"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track (arc) [NetC1_1] on Top Layer, length 0.0347 mm",
+                    "pos": {
+                        "x": 153.6188,
+                        "y": 87.3658
+                    },
+                    "uuid": "517e3657-11b4-4098-9b74-04d02c77161d"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track (arc) [NetLED1_4] on Top Layer, length 0.0317 mm",
+                    "pos": {
+                        "x": 142.0527,
+                        "y": 101.2066
+                    },
+                    "uuid": "98fa9fb9-f6bf-452c-8bbe-f7ea00052e65"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track (arc) [NetC7_2] on Top Layer, length 0.0317 mm",
+                    "pos": {
+                        "x": 148.4027,
+                        "y": 106.0517
+                    },
+                    "uuid": "48d52d38-7959-46a3-8cb5-0bdd419ebe90"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track (arc) [NetC2_1] on Top Layer, length 0.4119 mm",
+                    "pos": {
+                        "x": 142.5357,
+                        "y": 94.1662
+                    },
+                    "uuid": "b3259f7e-812d-407e-be2d-efc0c70eab68"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 148.5011,
+                        "y": 126.654235
+                    },
+                    "uuid": "1cc69e5b-4c3f-4e94-afaf-2773199bc006"
+                },
+                {
+                    "description": "Segment of KEY1 on Top Overlay",
+                    "pos": {
+                        "x": 137.03981,
+                        "y": 107.914176
+                    },
+                    "uuid": "fb1083f1-0d2d-40dc-acaf-4baad4b6ddcb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 148.5011,
+                        "y": 126.654235
+                    },
+                    "uuid": "1cc69e5b-4c3f-4e94-afaf-2773199bc006"
+                },
+                {
+                    "description": "Segment of KEY1 on Top Overlay",
+                    "pos": {
+                        "x": 140.84982,
+                        "y": 114.513295
+                    },
+                    "uuid": "a58e67e4-a4d3-4d7b-8fa8-4adc9c76dc05"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 173.5011,
+                        "y": 83.352965
+                    },
+                    "uuid": "dd3ecfa0-3b32-4335-b2e4-7333e54db4e2"
+                },
+                {
+                    "description": "Segment of USB1 on Top Overlay",
+                    "pos": {
+                        "x": 149.89932,
+                        "y": 115.033735
+                    },
+                    "uuid": "aea56dd0-1a97-4e1e-9158-8caa19691d4b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 173.5011,
+                        "y": 83.352965
+                    },
+                    "uuid": "dd3ecfa0-3b32-4335-b2e4-7333e54db4e2"
+                },
+                {
+                    "description": "Segment of USB1 on Top Overlay",
+                    "pos": {
+                        "x": 150.85679,
+                        "y": 110.835355
+                    },
+                    "uuid": "80b03593-f73a-41ff-84e5-a3222807c9ea"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Segment on Edge.Cuts",
+                    "pos": {
+                        "x": 173.5011,
+                        "y": 83.352965
+                    },
+                    "uuid": "dd3ecfa0-3b32-4335-b2e4-7333e54db4e2"
+                },
+                {
+                    "description": "Segment of USB1 on Top Overlay",
+                    "pos": {
+                        "x": 151.76831,
+                        "y": 120.864345
+                    },
+                    "uuid": "4facdf29-cc57-4ad0-a8e0-5eac7811359e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint KEY1",
+                    "pos": {
+                        "x": 141.8971,
+                        "y": 109.509235
+                    },
+                    "uuid": "01a02ab6-36cd-4417-b723-e30ceace076c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint C4",
+                    "pos": {
+                        "x": 154.3088,
+                        "y": 97.901555
+                    },
+                    "uuid": "026c8dce-67b8-4fb4-aa67-4e3f224f4c96"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint C15",
+                    "pos": {
+                        "x": 146.1643,
+                        "y": 114.203245
+                    },
+                    "uuid": "03955455-a78c-4889-a59b-db7e80b14c17"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint CN2",
+                    "pos": {
+                        "x": 158.4071,
+                        "y": 103.243085
+                    },
+                    "uuid": "156fcb4b-01cf-4c91-a839-60e3a528feb6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 153.58752,
+                        "y": 87.334475
+                    },
+                    "uuid": "236228d3-f10c-4950-ab07-22e58b9117af"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint CN1",
+                    "pos": {
+                        "x": 162.59811,
+                        "y": 96.004085
+                    },
+                    "uuid": "26145bcf-0e4e-4d12-bed1-883ee1b04134"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 154.3088,
+                        "y": 92.186555
+                    },
+                    "uuid": "28337229-52b0-42ae-87ae-8bf637ce414a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 152.5308,
+                        "y": 92.186555
+                    },
+                    "uuid": "32ac5c3d-93db-4d42-92c7-090563879c87"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint D2",
+                    "pos": {
+                        "x": 155.3591,
+                        "y": 107.350235
+                    },
+                    "uuid": "3ddee21b-a43e-4629-9934-c5044e8424a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint USB1",
+                    "pos": {
+                        "x": 151.5491,
+                        "y": 115.986235
+                    },
+                    "uuid": "5035cc7f-ad27-457b-8f33-b6398b0c2a78"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 145.50426,
+                        "y": 100.204165
+                    },
+                    "uuid": "53a1347f-0595-45a3-b5c9-f091a3d01159"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 156.12822,
+                        "y": 86.026105
+                    },
+                    "uuid": "675fb9f7-07bf-4189-bd3b-a2d41392743b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 142.01126,
+                        "y": 94.166165
+                    },
+                    "uuid": "7f263561-393f-4334-8a85-e5b204fc8bae"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint R11",
+                    "pos": {
+                        "x": 154.7179,
+                        "y": 109.750535
+                    },
+                    "uuid": "91b7cb76-0860-4478-8d0e-e0311630ed81"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint A3",
+                    "pos": {
+                        "x": 142.01127,
+                        "y": 90.102165
+                    },
+                    "uuid": "937c04c4-cb19-42cd-b99d-b2078ac0e134"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint D1",
+                    "pos": {
+                        "x": 148.8821,
+                        "y": 111.033235
+                    },
+                    "uuid": "9683de31-4dc9-4edb-bae7-8a8dd75755f2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint C13",
+                    "pos": {
+                        "x": 133.2738,
+                        "y": 96.942435
+                    },
+                    "uuid": "9d2ec979-bf1f-4f18-8892-251f6acb5cfc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint C14",
+                    "pos": {
+                        "x": 154.17639,
+                        "y": 101.056965
+                    },
+                    "uuid": "a5958d4e-ad77-4081-adf6-52eceaa201e1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint C11",
+                    "pos": {
+                        "x": 152.5308,
+                        "y": 97.876165
+                    },
+                    "uuid": "a91b9004-c52e-4a2c-a44a-c6574b453b42"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint R14",
+                    "pos": {
+                        "x": 142.2908,
+                        "y": 108.499435
+                    },
+                    "uuid": "b0b602cc-fc5a-4994-aa3f-d5097c06abb1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint C5",
+                    "pos": {
+                        "x": 146.5961,
+                        "y": 107.832835
+                    },
+                    "uuid": "d3f64921-4639-4d2a-ae27-9ef537e68519"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint C6",
+                    "pos": {
+                        "x": 145.82126,
+                        "y": 94.166165
+                    },
+                    "uuid": "d6241a38-873b-419f-b65b-1576e4f059aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint C10",
+                    "pos": {
+                        "x": 149.0091,
+                        "y": 94.116835
+                    },
+                    "uuid": "dad8cbac-6ce0-44f5-98d8-304af56d534f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint C9",
+                    "pos": {
+                        "x": 147.3581,
+                        "y": 92.364235
+                    },
+                    "uuid": "deda1498-fbe8-4f8c-a458-395145ddb492"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint X1",
+                    "pos": {
+                        "x": 135.9281,
+                        "y": 95.525885
+                    },
+                    "uuid": "ecaddb57-66d2-4126-af9a-f9d3c7918f96"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint C7",
+                    "pos": {
+                        "x": 148.3741,
+                        "y": 107.832835
+                    },
+                    "uuid": "ecc6ec8b-10f4-49b4-97d2-fd434740ec4e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint C8",
+                    "pos": {
+                        "x": 164.62756,
+                        "y": 89.537215
+                    },
+                    "uuid": "f2e602a0-f459-42a5-8f93-72dbdba33c53"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint C12",
+                    "pos": {
+                        "x": 136.1694,
+                        "y": 102.010035
+                    },
+                    "uuid": "f2fdec3b-7a81-47fc-b6b2-9b2987988633"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 144.17027,
+                        "y": 94.166165
+                    },
+                    "uuid": "f940f826-50df-4f83-90b9-9b331ce641c7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint R5",
+                    "pos": {
+                        "x": 153.5557,
+                        "y": 92.592835
+                    },
+                    "uuid": "0d26708e-41a6-4ac5-9c82-b8ed3dd20090"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 150.5077,
+                        "y": 90.814835
+                    },
+                    "uuid": "42b86868-1053-47f2-873e-0b7ab321ab68"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 152.0317,
+                        "y": 91.703835
+                    },
+                    "uuid": "46b1dfc5-a7a7-4808-8d85-f9da7bd57922"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BLV'",
+            "items": [
+                {
+                    "description": "Footprint LED1",
+                    "pos": {
+                        "x": 148.5011,
+                        "y": 97.825235
+                    },
+                    "uuid": "a1112509-51d0-4ad3-9ddb-bf12da084ed7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "PCB text 'WS112_V1.0' on Bottom Overlay",
+                    "pos": {
+                        "x": 139.692519,
+                        "y": 95.443904
+                    },
+                    "uuid": "c62e1bf1-366a-405b-be78-1871b30fe5d3"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "Reference field of KEY1",
+                    "pos": {
+                        "x": 137.974751,
+                        "y": 103.634233
+                    },
+                    "uuid": "ab46874d-de74-4859-bf4a-a6d76816b97f"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "Reference field of USB1",
+                    "pos": {
+                        "x": 155.688079,
+                        "y": 111.24552
+                    },
+                    "uuid": "beb12a8a-3416-4f2d-97c7-8d4160d427aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "Reference field of C13",
+                    "pos": {
+                        "x": 132.711792,
+                        "y": 93.374278
+                    },
+                    "uuid": "08caeab2-e511-475f-a86c-19a344d64e8e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "Reference field of C6",
+                    "pos": {
+                        "x": 145.53538,
+                        "y": 90.359052
+                    },
+                    "uuid": "6e35e575-5680-43e3-917f-18dd9d64a53d"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "Reference field of C9",
+                    "pos": {
+                        "x": 147.07222,
+                        "y": 90.340762
+                    },
+                    "uuid": "b1f4710c-b30a-45fd-92c9-8834db9ccef3"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "Reference field of C3",
+                    "pos": {
+                        "x": 143.88439,
+                        "y": 90.350622
+                    },
+                    "uuid": "100da0fe-ae36-49f7-972c-6ffd59a212a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Text thickness out of range (TrueType font characters with insufficient stroke weight)",
+            "items": [
+                {
+                    "description": "Reference field of R3",
+                    "pos": {
+                        "x": 151.324589,
+                        "y": 88.90474
+                    },
+                    "uuid": "2a29f651-2ecd-4fbb-b37e-a8db4ecd3925"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_thickness"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Arc of C7 on Top Overlay",
+                    "pos": {
+                        "x": 148.375,
+                        "y": 107.465885
+                    },
+                    "uuid": "5508a68f-b2f0-409b-b4dc-79b2536686bf"
+                },
+                {
+                    "description": "Segment of D1 on Top Overlay",
+                    "pos": {
+                        "x": 148.65195,
+                        "y": 109.653855
+                    },
+                    "uuid": "75589aa3-e79d-4a3b-a478-1af22503633b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of D1 on Top Overlay",
+                    "pos": {
+                        "x": 148.65195,
+                        "y": 109.653855
+                    },
+                    "uuid": "75589aa3-e79d-4a3b-a478-1af22503633b"
+                },
+                {
+                    "description": "Segment of C7 on Top Overlay",
+                    "pos": {
+                        "x": 149.1361,
+                        "y": 108.340835
+                    },
+                    "uuid": "d2864202-78d7-420f-998f-b457e192ee3d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of D1 on Top Overlay",
+                    "pos": {
+                        "x": 149.3187,
+                        "y": 108.499015
+                    },
+                    "uuid": "23f130a8-6659-4241-9d1c-ad9642f29d75"
+                },
+                {
+                    "description": "Arc of C7 on Top Overlay",
+                    "pos": {
+                        "x": 148.375,
+                        "y": 107.465885
+                    },
+                    "uuid": "5508a68f-b2f0-409b-b4dc-79b2536686bf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of D1 on Top Overlay",
+                    "pos": {
+                        "x": 149.3187,
+                        "y": 108.499015
+                    },
+                    "uuid": "23f130a8-6659-4241-9d1c-ad9642f29d75"
+                },
+                {
+                    "description": "Segment of C7 on Top Overlay",
+                    "pos": {
+                        "x": 149.1361,
+                        "y": 108.340835
+                    },
+                    "uuid": "d2864202-78d7-420f-998f-b457e192ee3d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of KEY1 on Top Overlay",
+                    "pos": {
+                        "x": 140.96191,
+                        "y": 107.849455
+                    },
+                    "uuid": "18def9af-9256-4264-a195-fd694064d304"
+                },
+                {
+                    "description": "Segment of R14 on Top Overlay",
+                    "pos": {
+                        "x": 141.22789,
+                        "y": 108.233225
+                    },
+                    "uuid": "da62ba22-971b-4c3a-8d0a-5bb07eab9e73"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R14 on Top Overlay",
+                    "pos": {
+                        "x": 142.29129,
+                        "y": 110.024285
+                    },
+                    "uuid": "0979e03f-eab3-47fc-9f74-3f759996b7b3"
+                },
+                {
+                    "description": "Segment of KEY1 on Top Overlay",
+                    "pos": {
+                        "x": 142.86692,
+                        "y": 111.149015
+                    },
+                    "uuid": "1209c6f0-53c2-4ed2-9cab-575f5c71a0ba"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of KEY1 on Top Overlay",
+                    "pos": {
+                        "x": 142.86692,
+                        "y": 111.149015
+                    },
+                    "uuid": "1209c6f0-53c2-4ed2-9cab-575f5c71a0ba"
+                },
+                {
+                    "description": "Segment of R14 on Top Overlay",
+                    "pos": {
+                        "x": 142.88819,
+                        "y": 111.058145
+                    },
+                    "uuid": "f08fba35-aabb-42dc-97d0-7cbdc1fd112c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R14 on Top Overlay",
+                    "pos": {
+                        "x": 142.29129,
+                        "y": 110.024285
+                    },
+                    "uuid": "0979e03f-eab3-47fc-9f74-3f759996b7b3"
+                },
+                {
+                    "description": "Segment of KEY1 on Top Overlay",
+                    "pos": {
+                        "x": 140.96191,
+                        "y": 107.849455
+                    },
+                    "uuid": "18def9af-9256-4264-a195-fd694064d304"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of KEY1 on Top Overlay",
+                    "pos": {
+                        "x": 140.96191,
+                        "y": 107.849455
+                    },
+                    "uuid": "18def9af-9256-4264-a195-fd694064d304"
+                },
+                {
+                    "description": "Segment of R14 on Top Overlay",
+                    "pos": {
+                        "x": 141.22789,
+                        "y": 108.233225
+                    },
+                    "uuid": "d63864f4-e39a-4457-bd7c-0818b7fdef2c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of KEY1 on Top Overlay",
+                    "pos": {
+                        "x": 140.96191,
+                        "y": 107.849455
+                    },
+                    "uuid": "18def9af-9256-4264-a195-fd694064d304"
+                },
+                {
+                    "description": "Segment of R14 on Top Overlay",
+                    "pos": {
+                        "x": 142.88819,
+                        "y": 111.058145
+                    },
+                    "uuid": "f08fba35-aabb-42dc-97d0-7cbdc1fd112c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C11 on Top Overlay",
+                    "pos": {
+                        "x": 153.2928,
+                        "y": 95.615555
+                    },
+                    "uuid": "2114239f-0d1b-462d-8bf4-f019043a7554"
+                },
+                {
+                    "description": "Segment of C4 on Top Overlay",
+                    "pos": {
+                        "x": 153.5468,
+                        "y": 96.580755
+                    },
+                    "uuid": "e2704c40-6d1c-4ab1-9760-901ae14fd897"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of CN2",
+                    "pos": {
+                        "x": 156.269453,
+                        "y": 97.368398
+                    },
+                    "uuid": "2e36cdff-2e16-4871-bacb-50b8ffd93adf"
+                },
+                {
+                    "description": "Segment of C4 on Top Overlay",
+                    "pos": {
+                        "x": 155.07081,
+                        "y": 97.469765
+                    },
+                    "uuid": "a0b863dc-4c15-4266-b610-9c5b8fad1912"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of CN2 on Top Overlay",
+                    "pos": {
+                        "x": 153.50332,
+                        "y": 104.726275
+                    },
+                    "uuid": "19823f11-efed-49a8-a5e2-0fc3dd362f6b"
+                },
+                {
+                    "description": "Segment of C14 on Top Overlay",
+                    "pos": {
+                        "x": 154.77256,
+                        "y": 102.310375
+                    },
+                    "uuid": "742bc32b-fd74-4c7c-951a-952217f94fc7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R2 on Top Overlay",
+                    "pos": {
+                        "x": 151.7434,
+                        "y": 91.424555
+                    },
+                    "uuid": "a7095109-0fd2-440c-b9a1-86705b7bdb46"
+                },
+                {
+                    "description": "Segment of R1 on Top Overlay",
+                    "pos": {
+                        "x": 153.5214,
+                        "y": 92.618355
+                    },
+                    "uuid": "fb3800ee-988c-4a37-b2f3-f10ca2d1b2af"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R1 on Top Overlay",
+                    "pos": {
+                        "x": 153.52141,
+                        "y": 91.424555
+                    },
+                    "uuid": "99c38fff-718c-42bf-8a8b-1e524f38de4d"
+                },
+                {
+                    "description": "Segment of R2 on Top Overlay",
+                    "pos": {
+                        "x": 151.7434,
+                        "y": 91.424555
+                    },
+                    "uuid": "a7095109-0fd2-440c-b9a1-86705b7bdb46"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C9 on Top Overlay",
+                    "pos": {
+                        "x": 148.1201,
+                        "y": 93.685035
+                    },
+                    "uuid": "4e13c5e6-ddcb-4125-89d9-c4c9a37edac4"
+                },
+                {
+                    "description": "Segment of C10 on Top Overlay",
+                    "pos": {
+                        "x": 148.2471,
+                        "y": 93.685035
+                    },
+                    "uuid": "c24d94fe-9f9b-454a-99da-9c259cb64154"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Arc of C9 on Top Overlay",
+                    "pos": {
+                        "x": 147.35899,
+                        "y": 93.775275
+                    },
+                    "uuid": "2a8f320d-f7f7-4dd7-8165-6f4ac84b7072"
+                },
+                {
+                    "description": "Segment of C10 on Top Overlay",
+                    "pos": {
+                        "x": 148.2471,
+                        "y": 93.685035
+                    },
+                    "uuid": "c24d94fe-9f9b-454a-99da-9c259cb64154"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C9 on Top Overlay",
+                    "pos": {
+                        "x": 148.1201,
+                        "y": 93.685035
+                    },
+                    "uuid": "4e13c5e6-ddcb-4125-89d9-c4c9a37edac4"
+                },
+                {
+                    "description": "Arc of C10 on Top Overlay",
+                    "pos": {
+                        "x": 149.01,
+                        "y": 93.749885
+                    },
+                    "uuid": "b91a9c0d-6109-4bd8-b984-ff8dc753a98a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Arc of C9 on Top Overlay",
+                    "pos": {
+                        "x": 147.35899,
+                        "y": 93.775275
+                    },
+                    "uuid": "2a8f320d-f7f7-4dd7-8165-6f4ac84b7072"
+                },
+                {
+                    "description": "Arc of C10 on Top Overlay",
+                    "pos": {
+                        "x": 149.01,
+                        "y": 93.749885
+                    },
+                    "uuid": "b91a9c0d-6109-4bd8-b984-ff8dc753a98a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C10 on Top Overlay",
+                    "pos": {
+                        "x": 149.7711,
+                        "y": 91.856235
+                    },
+                    "uuid": "d4b7ccae-027f-4cb4-b173-1b85c7f63d0e"
+                },
+                {
+                    "description": "Reference field of R2",
+                    "pos": {
+                        "x": 150.5172,
+                        "y": 93.040677
+                    },
+                    "uuid": "e6aa7944-6d45-4896-939c-733e7b04d0fa"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C9 on Top Overlay",
+                    "pos": {
+                        "x": 148.1201,
+                        "y": 92.796035
+                    },
+                    "uuid": "37414465-486f-4223-9a86-550dc095e0a5"
+                },
+                {
+                    "description": "Segment of C10 on Top Overlay",
+                    "pos": {
+                        "x": 148.2471,
+                        "y": 92.796035
+                    },
+                    "uuid": "b8c9b626-be99-46a9-ba1b-cc66477b8175"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Arc of C9 on Top Overlay",
+                    "pos": {
+                        "x": 147.3572,
+                        "y": 92.731185
+                    },
+                    "uuid": "78931bda-1650-4126-9bee-3fa5c91e2dcf"
+                },
+                {
+                    "description": "Segment of C10 on Top Overlay",
+                    "pos": {
+                        "x": 148.2471,
+                        "y": 92.796035
+                    },
+                    "uuid": "b8c9b626-be99-46a9-ba1b-cc66477b8175"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Arc of C10 on Top Overlay",
+                    "pos": {
+                        "x": 149.0082,
+                        "y": 92.705785
+                    },
+                    "uuid": "0a5e692f-74f4-4823-ae48-443cb157bb39"
+                },
+                {
+                    "description": "Segment of C9 on Top Overlay",
+                    "pos": {
+                        "x": 148.1201,
+                        "y": 92.796035
+                    },
+                    "uuid": "37414465-486f-4223-9a86-550dc095e0a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Arc of C10 on Top Overlay",
+                    "pos": {
+                        "x": 149.0082,
+                        "y": 92.705785
+                    },
+                    "uuid": "0a5e692f-74f4-4823-ae48-443cb157bb39"
+                },
+                {
+                    "description": "Arc of C9 on Top Overlay",
+                    "pos": {
+                        "x": 147.3572,
+                        "y": 92.731185
+                    },
+                    "uuid": "78931bda-1650-4126-9bee-3fa5c91e2dcf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of CN2 on Top Overlay",
+                    "pos": {
+                        "x": 153.50332,
+                        "y": 104.726275
+                    },
+                    "uuid": "19823f11-efed-49a8-a5e2-0fc3dd362f6b"
+                },
+                {
+                    "description": "Segment of C14 on Top Overlay",
+                    "pos": {
+                        "x": 153.72988,
+                        "y": 104.116335
+                    },
+                    "uuid": "de244cc7-efa2-4b78-9970-cdd81a2e61e1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of CN2 on Top Overlay",
+                    "pos": {
+                        "x": 153.50332,
+                        "y": 104.726275
+                    },
+                    "uuid": "19823f11-efed-49a8-a5e2-0fc3dd362f6b"
+                },
+                {
+                    "description": "Arc of C14 on Top Overlay",
+                    "pos": {
+                        "x": 153.346851,
+                        "y": 102.571823
+                    },
+                    "uuid": "f9992cc5-56de-4121-b38e-f6c49bedb3e7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Arc of C14 on Top Overlay",
+                    "pos": {
+                        "x": 153.82868,
+                        "y": 101.655117
+                    },
+                    "uuid": "05728a42-e1fb-48e3-b605-68e55a7ba70b"
+                },
+                {
+                    "description": "Segment of CN2 on Top Overlay",
+                    "pos": {
+                        "x": 153.50332,
+                        "y": 104.726275
+                    },
+                    "uuid": "19823f11-efed-49a8-a5e2-0fc3dd362f6b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R2 on Top Overlay",
+                    "pos": {
+                        "x": 153.2928,
+                        "y": 92.618355
+                    },
+                    "uuid": "86ab7358-0eae-4318-b264-8fe39482b837"
+                },
+                {
+                    "description": "Segment of R1 on Top Overlay",
+                    "pos": {
+                        "x": 153.5214,
+                        "y": 92.618355
+                    },
+                    "uuid": "fb3800ee-988c-4a37-b2f3-f10ca2d1b2af"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R2 on Top Overlay",
+                    "pos": {
+                        "x": 153.2928,
+                        "y": 92.618355
+                    },
+                    "uuid": "86ab7358-0eae-4318-b264-8fe39482b837"
+                },
+                {
+                    "description": "Segment of R1 on Top Overlay",
+                    "pos": {
+                        "x": 153.52141,
+                        "y": 91.424555
+                    },
+                    "uuid": "99c38fff-718c-42bf-8a8b-1e524f38de4d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of X1 on Top Overlay",
+                    "pos": {
+                        "x": 133.84306,
+                        "y": 95.914475
+                    },
+                    "uuid": "4b867177-5400-4e2d-94d5-c371e040f75f"
+                },
+                {
+                    "description": "Segment of C13 on Top Overlay",
+                    "pos": {
+                        "x": 133.67971,
+                        "y": 96.121495
+                    },
+                    "uuid": "61e54696-0023-4ff8-9812-7f64cc1a129e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of X1 on Top Overlay",
+                    "pos": {
+                        "x": 133.84306,
+                        "y": 95.914475
+                    },
+                    "uuid": "4b867177-5400-4e2d-94d5-c371e040f75f"
+                },
+                {
+                    "description": "Segment of C13 on Top Overlay",
+                    "pos": {
+                        "x": 134.59411,
+                        "y": 97.705285
+                    },
+                    "uuid": "4d915d75-614a-4d37-9391-c0fbcf623a0b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of U2",
+                    "pos": {
+                        "x": 150.48839,
+                        "y": 100.320135
+                    },
+                    "uuid": "5ddec756-b835-419d-9afb-9b78c5775dd2"
+                },
+                {
+                    "description": "Segment of U2 on Top Overlay",
+                    "pos": {
+                        "x": 149.82926,
+                        "y": 101.804165
+                    },
+                    "uuid": "d416c01b-752c-4c76-a49c-4221617edb26"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C6 on Top Overlay",
+                    "pos": {
+                        "x": 145.05926,
+                        "y": 94.674165
+                    },
+                    "uuid": "1bbd419a-4cfe-4e6a-b58a-4c33e189b675"
+                },
+                {
+                    "description": "Segment of C3 on Top Overlay",
+                    "pos": {
+                        "x": 144.93226,
+                        "y": 94.674165
+                    },
+                    "uuid": "d0ec2c33-2aed-4bc4-aa41-61889a0bb9fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Arc of C3 on Top Overlay",
+                    "pos": {
+                        "x": 144.17116,
+                        "y": 93.799215
+                    },
+                    "uuid": "18efd286-0c03-441e-abf7-ac3dd40ce646"
+                },
+                {
+                    "description": "Segment of C6 on Top Overlay",
+                    "pos": {
+                        "x": 145.05926,
+                        "y": 94.674165
+                    },
+                    "uuid": "1bbd419a-4cfe-4e6a-b58a-4c33e189b675"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C9 on Top Overlay",
+                    "pos": {
+                        "x": 146.5961,
+                        "y": 94.624835
+                    },
+                    "uuid": "b0944e06-0db2-4dcc-8bec-b00fd1277455"
+                },
+                {
+                    "description": "Segment of C6 on Top Overlay",
+                    "pos": {
+                        "x": 146.58326,
+                        "y": 94.674165
+                    },
+                    "uuid": "e6e6e468-bc9d-40ea-b465-9570d878acc8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Arc of C9 on Top Overlay",
+                    "pos": {
+                        "x": 147.35899,
+                        "y": 93.775275
+                    },
+                    "uuid": "2a8f320d-f7f7-4dd7-8165-6f4ac84b7072"
+                },
+                {
+                    "description": "Segment of C6 on Top Overlay",
+                    "pos": {
+                        "x": 146.58326,
+                        "y": 94.674165
+                    },
+                    "uuid": "e6e6e468-bc9d-40ea-b465-9570d878acc8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C9 on Top Overlay",
+                    "pos": {
+                        "x": 146.5961,
+                        "y": 94.624835
+                    },
+                    "uuid": "b0944e06-0db2-4dcc-8bec-b00fd1277455"
+                },
+                {
+                    "description": "Arc of C6 on Top Overlay",
+                    "pos": {
+                        "x": 145.82216,
+                        "y": 93.799215
+                    },
+                    "uuid": "ee4b7a64-6eb9-492c-9256-0009d8d0bee7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Arc of C9 on Top Overlay",
+                    "pos": {
+                        "x": 147.35899,
+                        "y": 93.775275
+                    },
+                    "uuid": "2a8f320d-f7f7-4dd7-8165-6f4ac84b7072"
+                },
+                {
+                    "description": "Arc of C6 on Top Overlay",
+                    "pos": {
+                        "x": 145.82216,
+                        "y": 93.799215
+                    },
+                    "uuid": "ee4b7a64-6eb9-492c-9256-0009d8d0bee7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C3 on Top Overlay",
+                    "pos": {
+                        "x": 144.93226,
+                        "y": 94.674165
+                    },
+                    "uuid": "d0ec2c33-2aed-4bc4-aa41-61889a0bb9fc"
+                },
+                {
+                    "description": "Arc of C6 on Top Overlay",
+                    "pos": {
+                        "x": 145.82216,
+                        "y": 93.799215
+                    },
+                    "uuid": "ee4b7a64-6eb9-492c-9256-0009d8d0bee7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Arc of C3 on Top Overlay",
+                    "pos": {
+                        "x": 144.17116,
+                        "y": 93.799215
+                    },
+                    "uuid": "18efd286-0c03-441e-abf7-ac3dd40ce646"
+                },
+                {
+                    "description": "Arc of C6 on Top Overlay",
+                    "pos": {
+                        "x": 145.82216,
+                        "y": 93.799215
+                    },
+                    "uuid": "ee4b7a64-6eb9-492c-9256-0009d8d0bee7"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C6 on Top Overlay",
+                    "pos": {
+                        "x": 145.05926,
+                        "y": 92.845365
+                    },
+                    "uuid": "23a9e4eb-7aa3-4452-a66c-e7e29e5343eb"
+                },
+                {
+                    "description": "Segment of C3 on Top Overlay",
+                    "pos": {
+                        "x": 144.93226,
+                        "y": 91.905565
+                    },
+                    "uuid": "d7b2409e-1739-4619-b360-1911d3842d1e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Arc of C3 on Top Overlay",
+                    "pos": {
+                        "x": 144.16937,
+                        "y": 92.755115
+                    },
+                    "uuid": "1d8d1c44-daa2-4548-8451-e76bcaf209bb"
+                },
+                {
+                    "description": "Segment of C6 on Top Overlay",
+                    "pos": {
+                        "x": 145.05926,
+                        "y": 92.845365
+                    },
+                    "uuid": "23a9e4eb-7aa3-4452-a66c-e7e29e5343eb"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C6 on Top Overlay",
+                    "pos": {
+                        "x": 146.58327,
+                        "y": 92.845355
+                    },
+                    "uuid": "5bf89a35-ddeb-43c8-81b7-799792af3b05"
+                },
+                {
+                    "description": "Segment of C9 on Top Overlay",
+                    "pos": {
+                        "x": 146.5961,
+                        "y": 92.796035
+                    },
+                    "uuid": "b6425efa-b98b-47c1-8e8c-4ab038f7347d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C6 on Top Overlay",
+                    "pos": {
+                        "x": 146.58327,
+                        "y": 92.845355
+                    },
+                    "uuid": "5bf89a35-ddeb-43c8-81b7-799792af3b05"
+                },
+                {
+                    "description": "Arc of C9 on Top Overlay",
+                    "pos": {
+                        "x": 147.3572,
+                        "y": 92.731185
+                    },
+                    "uuid": "78931bda-1650-4126-9bee-3fa5c91e2dcf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Arc of C6 on Top Overlay",
+                    "pos": {
+                        "x": 145.82036,
+                        "y": 92.755115
+                    },
+                    "uuid": "382c0858-8f85-4157-9c5c-43735dc1632f"
+                },
+                {
+                    "description": "Segment of C9 on Top Overlay",
+                    "pos": {
+                        "x": 146.5961,
+                        "y": 92.796035
+                    },
+                    "uuid": "b6425efa-b98b-47c1-8e8c-4ab038f7347d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Arc of C6 on Top Overlay",
+                    "pos": {
+                        "x": 145.82036,
+                        "y": 92.755115
+                    },
+                    "uuid": "382c0858-8f85-4157-9c5c-43735dc1632f"
+                },
+                {
+                    "description": "Arc of C9 on Top Overlay",
+                    "pos": {
+                        "x": 147.3572,
+                        "y": 92.731185
+                    },
+                    "uuid": "78931bda-1650-4126-9bee-3fa5c91e2dcf"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Arc of C6 on Top Overlay",
+                    "pos": {
+                        "x": 145.82036,
+                        "y": 92.755115
+                    },
+                    "uuid": "382c0858-8f85-4157-9c5c-43735dc1632f"
+                },
+                {
+                    "description": "Segment of C3 on Top Overlay",
+                    "pos": {
+                        "x": 144.93226,
+                        "y": 91.905565
+                    },
+                    "uuid": "d7b2409e-1739-4619-b360-1911d3842d1e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Arc of C3 on Top Overlay",
+                    "pos": {
+                        "x": 144.16937,
+                        "y": 92.755115
+                    },
+                    "uuid": "1d8d1c44-daa2-4548-8451-e76bcaf209bb"
+                },
+                {
+                    "description": "Arc of C6 on Top Overlay",
+                    "pos": {
+                        "x": 145.82036,
+                        "y": 92.755115
+                    },
+                    "uuid": "382c0858-8f85-4157-9c5c-43735dc1632f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R3 on Bottom Overlay",
+                    "pos": {
+                        "x": 148.590489,
+                        "y": 92.611545
+                    },
+                    "uuid": "13e5aab2-26b1-473d-a826-1181a2f9d249"
+                },
+                {
+                    "description": "Segment of R4 on Bottom Overlay",
+                    "pos": {
+                        "x": 150.11448,
+                        "y": 93.500546
+                    },
+                    "uuid": "8b072da6-c409-48bd-988b-224783f13a7f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R3 on Bottom Overlay",
+                    "pos": {
+                        "x": 148.590489,
+                        "y": 92.611545
+                    },
+                    "uuid": "13e5aab2-26b1-473d-a826-1181a2f9d249"
+                },
+                {
+                    "description": "Segment of R4 on Bottom Overlay",
+                    "pos": {
+                        "x": 150.11448,
+                        "y": 93.500546
+                    },
+                    "uuid": "f8876069-f4aa-4410-a9cb-40f908add912"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R3 on Bottom Overlay",
+                    "pos": {
+                        "x": 149.91031,
+                        "y": 93.373545
+                    },
+                    "uuid": "5449c1eb-2306-484e-bf36-e4f5e8f4f854"
+                },
+                {
+                    "description": "Segment of R4 on Bottom Overlay",
+                    "pos": {
+                        "x": 150.11448,
+                        "y": 93.500546
+                    },
+                    "uuid": "8b072da6-c409-48bd-988b-224783f13a7f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R3 on Bottom Overlay",
+                    "pos": {
+                        "x": 149.91031,
+                        "y": 93.373545
+                    },
+                    "uuid": "5449c1eb-2306-484e-bf36-e4f5e8f4f854"
+                },
+                {
+                    "description": "Segment of R4 on Bottom Overlay",
+                    "pos": {
+                        "x": 150.11448,
+                        "y": 93.500546
+                    },
+                    "uuid": "f8876069-f4aa-4410-a9cb-40f908add912"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R4 on Bottom Overlay",
+                    "pos": {
+                        "x": 151.15589,
+                        "y": 91.696785
+                    },
+                    "uuid": "1c49cea6-5e91-4e2f-8533-04dff927cbcc"
+                },
+                {
+                    "description": "Segment of R3 on Bottom Overlay",
+                    "pos": {
+                        "x": 150.22879,
+                        "y": 89.773925
+                    },
+                    "uuid": "d05891a7-4284-4b0b-9be8-3c9ec3802886"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R4 on Bottom Overlay",
+                    "pos": {
+                        "x": 151.75279,
+                        "y": 90.662925
+                    },
+                    "uuid": "c2ea9e6a-2fd0-4654-be51-85b12db480ae"
+                },
+                {
+                    "description": "Segment of R3 on Bottom Overlay",
+                    "pos": {
+                        "x": 150.22879,
+                        "y": 89.773925
+                    },
+                    "uuid": "d05891a7-4284-4b0b-9be8-3c9ec3802886"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R4 on Bottom Overlay",
+                    "pos": {
+                        "x": 152.49771,
+                        "y": 92.471484
+                    },
+                    "uuid": "a688f585-cbd4-46a1-9bfe-a8fb412fee01"
+                },
+                {
+                    "description": "Segment of R5 on Bottom Overlay",
+                    "pos": {
+                        "x": 153.27679,
+                        "y": 91.551925
+                    },
+                    "uuid": "aca5761e-4765-4641-aa4e-20e5fd5e594a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R5 on Bottom Overlay",
+                    "pos": {
+                        "x": 153.27679,
+                        "y": 91.551925
+                    },
+                    "uuid": "aca5761e-4765-4641-aa4e-20e5fd5e594a"
+                },
+                {
+                    "description": "Segment of R4 on Bottom Overlay",
+                    "pos": {
+                        "x": 151.75279,
+                        "y": 90.662925
+                    },
+                    "uuid": "c2ea9e6a-2fd0-4654-be51-85b12db480ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R5 on Bottom Overlay",
+                    "pos": {
+                        "x": 151.63848,
+                        "y": 94.389546
+                    },
+                    "uuid": "922ece1a-81a7-4dd2-b212-0834941dfcda"
+                },
+                {
+                    "description": "Segment of R4 on Bottom Overlay",
+                    "pos": {
+                        "x": 150.11448,
+                        "y": 93.500546
+                    },
+                    "uuid": "f8876069-f4aa-4410-a9cb-40f908add912"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R4 on Bottom Overlay",
+                    "pos": {
+                        "x": 151.43431,
+                        "y": 94.262545
+                    },
+                    "uuid": "0ac15b14-f1b6-4fff-b046-ee31f1aca7d4"
+                },
+                {
+                    "description": "Segment of R5 on Bottom Overlay",
+                    "pos": {
+                        "x": 151.63848,
+                        "y": 94.389546
+                    },
+                    "uuid": "922ece1a-81a7-4dd2-b212-0834941dfcda"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R5 on Bottom Overlay",
+                    "pos": {
+                        "x": 151.63848,
+                        "y": 94.389546
+                    },
+                    "uuid": "5d48f132-db2a-43cc-aa27-d48cd94d0ded"
+                },
+                {
+                    "description": "Segment of R4 on Bottom Overlay",
+                    "pos": {
+                        "x": 150.11448,
+                        "y": 93.500546
+                    },
+                    "uuid": "f8876069-f4aa-4410-a9cb-40f908add912"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R4 on Bottom Overlay",
+                    "pos": {
+                        "x": 151.43431,
+                        "y": 94.262545
+                    },
+                    "uuid": "0ac15b14-f1b6-4fff-b046-ee31f1aca7d4"
+                },
+                {
+                    "description": "Segment of R5 on Bottom Overlay",
+                    "pos": {
+                        "x": 151.63848,
+                        "y": 94.389546
+                    },
+                    "uuid": "5d48f132-db2a-43cc-aa27-d48cd94d0ded"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R5 on Bottom Overlay",
+                    "pos": {
+                        "x": 152.67989,
+                        "y": 92.585785
+                    },
+                    "uuid": "090cd54b-5f1d-4c2a-93b4-9cd4ca824355"
+                },
+                {
+                    "description": "Segment of R4 on Bottom Overlay",
+                    "pos": {
+                        "x": 152.49771,
+                        "y": 92.471484
+                    },
+                    "uuid": "a688f585-cbd4-46a1-9bfe-a8fb412fee01"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R5 on Bottom Overlay",
+                    "pos": {
+                        "x": 152.67989,
+                        "y": 92.585785
+                    },
+                    "uuid": "090cd54b-5f1d-4c2a-93b4-9cd4ca824355"
+                },
+                {
+                    "description": "Segment of R4 on Bottom Overlay",
+                    "pos": {
+                        "x": 151.75279,
+                        "y": 90.662925
+                    },
+                    "uuid": "c2ea9e6a-2fd0-4654-be51-85b12db480ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R4 on Bottom Overlay",
+                    "pos": {
+                        "x": 151.15589,
+                        "y": 91.696785
+                    },
+                    "uuid": "1c49cea6-5e91-4e2f-8533-04dff927cbcc"
+                },
+                {
+                    "description": "Segment of R3 on Bottom Overlay",
+                    "pos": {
+                        "x": 150.97371,
+                        "y": 91.582484
+                    },
+                    "uuid": "a6eff496-f7ae-497b-bda3-d69667c4f272"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of R3 on Bottom Overlay",
+                    "pos": {
+                        "x": 150.97371,
+                        "y": 91.582484
+                    },
+                    "uuid": "a6eff496-f7ae-497b-bda3-d69667c4f272"
+                },
+                {
+                    "description": "Segment of R4 on Bottom Overlay",
+                    "pos": {
+                        "x": 151.75279,
+                        "y": 90.662925
+                    },
+                    "uuid": "c2ea9e6a-2fd0-4654-be51-85b12db480ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text '+' on Bottom Overlay",
+                    "pos": {
+                        "x": 156.76318,
+                        "y": 103.965783
+                    },
+                    "uuid": "495a4cd5-80b6-42b7-bed1-aef32ad456a2"
+                },
+                {
+                    "description": "PTH pad 2 [NetCN2_2] of CN2",
+                    "pos": {
+                        "x": 157.7721,
+                        "y": 104.342935
+                    },
+                    "uuid": "7ef402ac-6152-4d85-9554-7d59cc70a5b1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "PCB text '-' on Bottom Overlay",
+                    "pos": {
+                        "x": 159.056241,
+                        "y": 95.326213
+                    },
+                    "uuid": "3c57afa7-2c34-4d5d-8bfa-b5b41e8a442c"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "PCB text '+' on Bottom Overlay",
+                    "pos": {
+                        "x": 160.30501,
+                        "y": 92.954687
+                    },
+                    "uuid": "ba69f7df-542d-49e6-beef-1f5abc529659"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "PCB text '+' on Bottom Overlay",
+                    "pos": {
+                        "x": 156.76318,
+                        "y": 103.965783
+                    },
+                    "uuid": "495a4cd5-80b6-42b7-bed1-aef32ad456a2"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        },
+        {
+            "description": "Non-Mirrored text on back layer",
+            "items": [
+                {
+                    "description": "PCB text '-' on Bottom Overlay",
+                    "pos": {
+                        "x": 158.011959,
+                        "y": 101.721247
+                    },
+                    "uuid": "2ddb6bf1-3c5a-4a2e-b415-e1f9ee911952"
+                }
+            ],
+            "severity": "warning",
+            "type": "nonmirrored_text_on_back_layer"
+        }
+    ]
+}

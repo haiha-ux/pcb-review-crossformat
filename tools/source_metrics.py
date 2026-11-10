@@ -53,8 +53,38 @@ def altium(path):
             kinds["free_copper"] += 1
             length["free_top" if layer == ALTIUM_TOP else "free_bottom"] += seg
     assert n == counts.get("Tracks6", n), ("Tracks6 record count disagrees with its header", n, counts.get("Tracks6"))
+    # Arcs6, AARC6 in the same parser: same 13-byte head, then centre x/y i32, radius i32, start/end angle f64, width
+    data = o.openstream("Arcs6/Data").read()
+    i, n = 0, 0
+    akinds = dict.fromkeys(kinds, 0)
+    alen = {"free_top": 0.0, "free_bottom": 0.0}
+    while i < len(data):
+        rtype = data[i]
+        ln = struct.unpack_from("<I", data, i + 1)[0]
+        rec = data[i + 5:i + 5 + ln]
+        i += 5 + ln
+        n += 1
+        assert rtype == 1, ("unexpected record type in Arcs6", rtype, n)
+        layer, _f1, f2 = rec[0], rec[1], rec[2]
+        _net, poly, comp = struct.unpack_from("<HHH", rec, 3)
+        _cx, _cy, r = struct.unpack_from("<iii", rec, 13)
+        a0, a1 = struct.unpack_from("<dd", rec, 25)
+        sweep = (a1 - a0) % 360 or 360
+        if f2 == 2:
+            akinds["keepout"] += 1
+        elif layer not in (ALTIUM_TOP, ALTIUM_BOTTOM):
+            akinds["other_layers"] += 1
+        elif comp != 0xFFFF:
+            akinds["in_footprint"] += 1
+        elif poly != 0xFFFF:
+            akinds["polygon_member"] += 1
+        else:
+            akinds["free_copper"] += 1
+            alen["free_top" if layer == ALTIUM_TOP else "free_bottom"] += r * MM_PER_UNIT * math.radians(sweep)
+    assert n == counts.get("Arcs6", n), ("Arcs6 record count disagrees with its header", n, counts.get("Arcs6"))
     return {"format": "Altium PcbDoc", "record_counts": {k: counts[k] for k in sorted(counts) if counts[k]},
-            "tracks6_by_kind": kinds, "free_track_length_mm": {k: round(v, 2) for k, v in length.items()}}
+            "tracks6_by_kind": kinds, "free_track_length_mm": {k: round(v, 2) for k, v in length.items()},
+            "arcs6_by_kind": akinds, "free_arc_length_mm": {k: round(v, 2) for k, v in alen.items()}}
 
 
 def eagle(path):

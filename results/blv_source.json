@@ -45,5 +45,16 @@
  "free_track_length_mm": {
   "free_top": 118.99,
   "free_bottom": 59.56
+ },
+ "arcs6_by_kind": {
+  "free_copper": 51,
+  "polygon_member": 0,
+  "in_footprint": 0,
+  "other_layers": 36,
+  "keepout": 0
+ },
+ "free_arc_length_mm": {
+  "free_top": 48.78,
+  "free_bottom": 10.5
  }
 }

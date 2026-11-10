@@ -1,0 +1,6 @@
+[{"name": "u2_pads_mask", "layers": "F.Cu,F.Mask,F.Silkscreen,Edge.Cuts", "at": [145.5, 100.2], "half": 4.5, "marks": [[147.41, 102.93], [143.6, 97.48]]},
+ {"name": "u2_decoupling", "layers": "F.Cu,F.Silkscreen,Edge.Cuts", "at": [150.5, 97.0], "half": 7.0, "marks": [[148.36, 97.48], [147.36, 92.36], [154.18, 101.06]]},
+ {"name": "antenna", "layers": "F.Cu,B.Cu,F.Silkscreen,Edge.Cuts", "at": [134.5, 89.0], "half": 11.0, "marks": [[142.01, 94.17]]},
+ {"name": "x1_crystal", "layers": "F.Cu,F.Silkscreen,Edge.Cuts", "at": [139.0, 98.5], "half": 6.0, "marks": [[135.93, 95.53], [142.01, 97.48], [142.65, 97.48]]},
+ {"name": "edge_via", "layers": "F.Cu,B.Cu,Edge.Cuts", "at": [133.95, 99.91], "half": 2.5, "marks": [[133.95, 99.91]]},
+ {"name": "vin_thermals", "layers": "F.Cu,F.Silkscreen,Edge.Cuts", "at": [148.4, 114.2], "half": 4.0, "marks": [[148.59, 115.77], [148.02, 112.52]]}]

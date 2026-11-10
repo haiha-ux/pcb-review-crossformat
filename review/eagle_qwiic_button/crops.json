@@ -1,0 +1,6 @@
+[{"name": "jp3_closed_jumper", "layers": "F.Cu,F.Mask,F.Silkscreen,Edge.Cuts", "at": [23.0, -4.83], "half": 2.5, "marks": [[23.62, -4.83]]},
+ {"name": "int0_closed_jumper", "layers": "B.Cu,B.Mask,B.Silkscreen,Edge.Cuts", "at": [21.6, -8.89], "half": 2.5, "marks": [[21.59, -8.89]]},
+ {"name": "adr_jumpers", "layers": "B.Cu,B.Mask,B.Silkscreen,Edge.Cuts", "at": [4.0, -4.2], "half": 4.0, "marks": []},
+ {"name": "u4_decoupling", "layers": "F.Cu,F.Silkscreen,Edge.Cuts", "at": [18.5, -13.5], "half": 7.5, "marks": [[16.51, -9.15], [22.01, -17.78]]},
+ {"name": "dangling_vias", "layers": "F.Cu,B.Cu,F.Silkscreen,Edge.Cuts", "at": [8.6, -8.9], "half": 2.5, "marks": [[9.54, -8.06], [7.62, -9.78]]},
+ {"name": "standoff_h1", "layers": "F.Cu,B.Cu,Edge.Cuts", "at": [22.86, -22.86], "half": 3.0, "marks": []}]
